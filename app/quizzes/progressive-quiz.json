@@ -1,0 +1,98 @@
+{
+  "id": "progressive",
+  "title": "General Knowledge Challenge",
+  "timeLimit": 900,
+  "passingScore": 15,
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "Which planet is closest to the Sun?",
+      "options": ["Mars", "Venus", "Earth", "Mercury"],
+      "correctOption": 3
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is the capital of France?",
+      "options": ["Rome", "Paris", "Madrid", "Berlin"],
+      "correctOption": 1
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which element has the chemical symbol 'O'?",
+      "options": ["Oxygen", "Osmium", "Ozone", "Oxide"],
+      "correctOption": 0
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which ocean is the largest by area?",
+      "options": ["Atlantic Ocean", "Indian Ocean", "Pacific Ocean", "Arctic Ocean"],
+      "correctOption": 2
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Who wrote the play 'Romeo and Juliet'?",
+      "options": ["William Shakespeare", "Charles Dickens", "Jane Austen", "Mark Twain"],
+      "correctOption": 0
+    },
+    {
+      "type": "multiple-choice",
+      "question": "In what year did World War I begin?",
+      "options": ["1914", "1918", "1939", "1945"],
+      "correctOption": 0
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which organ in the human body is primarily responsible for filtering blood?",
+      "options": ["Heart", "Lungs", "Kidneys", "Liver"],
+      "correctOption": 2
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is the hardest natural substance on Earth?",
+      "options": ["Gold", "Iron", "Diamond", "Granite"],
+      "correctOption": 2
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which country hosted the 2016 Summer Olympics?",
+      "options": ["Brazil", "China", "Japan", "Russia"],
+      "correctOption": 0
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which mathematician is known for developing calculus independently of Isaac Newton?",
+      "options": ["Albert Einstein", "Carl Gauss", "Leonhard Euler", "Gottfried Wilhelm Leibniz"],
+      "correctOption": 3
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is the largest desert in the world?",
+      "options": ["Gobi Desert", "Sahara Desert", "Antarctic Desert", "Arabian Desert"],
+      "correctOption": 2
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is the name of the world's longest river?",
+      "options": ["Amazon", "Nile", "Yangtze", "Mississippi"],
+      "correctOption": 1
+    },
+    {
+      "type": "multiple-choice",
+      "question": "In which year did the Titanic sink?",
+      "options": ["1912", "1905", "1921", "1916"],
+      "correctOption": 0
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Who developed the theory of general relativity?",
+      "options": ["Nikola Tesla", "Galileo Galilei", "Albert Einstein", "Isaac Newton"],
+      "correctOption": 2
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is the smallest country in the world by land area?",
+      "options": ["Monaco", "San Marino", "Liechtenstein", "Vatican City"],
+      "correctOption": 3
+    }
+  ]
+}

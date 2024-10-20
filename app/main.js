@@ -23,6 +23,7 @@ function renderHomePage() {
         <li><a href="/quiz?id=code" data-link>JavaScript Basics Quiz</a></li>
         <li><a href="/quiz?id=moon-landing" data-link>The Moon Landing Quiz</a></li>
         <li><a href="/quiz?id=openformat-api" data-link>OPENFORMAT Quiz</a></li>
+        <li><a href="/quiz?id=progressive" data-link>Who Wants to be a Millionaire?</a></li>
       </ul>
     </div>
   `;

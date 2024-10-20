@@ -112,4 +112,6 @@ font-size:.6em;
 .quiz__score {
   font-weight: bold;
   margin-top: .3em;
+  text-align:center;
 }
+.quiz__timer{font-size:4em;}
