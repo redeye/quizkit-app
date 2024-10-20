@@ -1,0 +1,44 @@
+{
+  "id": "ancient",
+  "title": "Ancient Civilizations Quiz",
+  "timeLimit": 150,
+  "passingScore": 4,
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "Which civilization built the pyramids of Giza?",
+      "options": ["The Romans", "The Greeks", "The Egyptians", "The Mayans"],
+      "correctOption": 2
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Who is known as the 'Father of History'?",
+      "options": ["Plato", "Herodotus", "Aristotle", "Socrates"],
+      "correctOption": 1
+    },
+    {
+      "type": "true-false",
+      "question": "True or False: The Hanging Gardens were located in Babylon.",
+      "options": ["True", "False"],
+      "correctOption": 0
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which ancient civilization was located in what is now Pakistan and northwest India?",
+      "options": ["Mesopotamia", "Indus Valley", "Nile Valley", "Yellow River Valley"],
+      "correctOption": 1
+    },
+    {
+      "type": "multiple-choice",
+      "question": "The 'Code of Hammurabi' is one of the earliest known sets of laws from which civilization?",
+      "options": ["Assyrian", "Babylonian", "Sumerian", "Persian"],
+      "correctOption": 1
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Who was the king of the Greek gods?",
+      "options": ["Poseidon", "Zeus", "Hades", "Apollo"],
+      "correctOption": 1
+    }
+  ]
+}

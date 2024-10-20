@@ -1,0 +1,207 @@
+{
+  "id": "openformat-api",
+  "title": "OpenFormat API Advanced Quiz",
+  "timeLimit": 600,
+  "passingScore": 15,
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "What is the main purpose of the OpenFormat API?",
+      "options": [
+        "To manage tokens and leaderboards",
+        "To create decentralized autonomous organizations",
+        "To facilitate blockchain-based digital assets and rewards",
+        "To enable cross-chain transactions"
+      ],
+      "correctOption": 2
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which HTTP method is used to mint a new token in OpenFormat?",
+      "options": [
+        "GET",
+        "POST",
+        "PUT",
+        "DELETE"
+      ],
+      "correctOption": 1
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is required for authentication when using OpenFormat API?",
+      "options": [
+        "OAuth Token",
+        "API Key linked to an Ethereum account",
+        "Private Key",
+        "Username and Password"
+      ],
+      "correctOption": 1
+    },
+    {
+      "type": "true-false",
+      "question": "True or False: OpenFormat allows you to create custom leaderboards for tokenized assets.",
+      "options": ["True", "False"],
+      "correctOption": 0
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which of the following is NOT a supported operation in OpenFormat?",
+      "options": [
+        "Minting tokens",
+        "Burning tokens",
+        "Leaderboard management",
+        "Smart contract deployment"
+      ],
+      "correctOption": 3
+    },
+    {
+      "type": "multiple-choice",
+      "question": "How do you verify an API Key with OpenFormat?",
+      "options": [
+        "Using a smart contract",
+        "Through a challenge and response verification",
+        "By sending a verification email",
+        "By verifying with MetaMask"
+      ],
+      "correctOption": 1
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What type of assets can be tokenized with OpenFormat?",
+      "options": [
+        "Only ERC-20 tokens",
+        "Only ERC-721 NFTs",
+        "Any type of asset, including NFTs and tokens",
+        "Only DeFi assets"
+      ],
+      "correctOption": 2
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which of the following parameters is mandatory when creating a new token?",
+      "options": [
+        "Name",
+        "Token ID",
+        "Expiry date",
+        "Token symbol"
+      ],
+      "correctOption": 0
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which programming language is used to interact with the OpenFormat API?",
+      "options": [
+        "JavaScript",
+        "Python",
+        "Ruby",
+        "Go"
+      ],
+      "correctOption": 0
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does OpenFormat use to manage transaction permissions?",
+      "options": [
+        "OAuth",
+        "API Keys",
+        "Smart contracts",
+        "Access tokens"
+      ],
+      "correctOption": 2
+    },
+    {
+      "type": "true-false",
+      "question": "True or False: OpenFormat supports both fungible and non-fungible tokens.",
+      "options": ["True", "False"],
+      "correctOption": 0
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which OpenFormat method is used to update token metadata?",
+      "content": {
+        "type": "code",
+        "language": "javascript",
+        "code": "openFormat.updateMetadata(tokenID, { description: 'Updated token' });"
+      },
+      "options": [
+        "openFormat.updateToken()",
+        "openFormat.modifyToken()",
+        "openFormat.updateMetadata()",
+        "openFormat.editToken()"
+      ],
+      "correctOption": 2
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What HTTP status code is returned when a token is successfully minted?",
+      "options": [
+        "200 OK",
+        "201 Created",
+        "204 No Content",
+        "400 Bad Request"
+      ],
+      "correctOption": 1
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which OpenFormat API method allows you to retrieve the details of a specific token?",
+      "options": [
+        "openFormat.getTokenDetails()",
+        "openFormat.retrieveToken()",
+        "openFormat.fetchToken()",
+        "openFormat.tokenDetails()"
+      ],
+      "correctOption": 0
+    },
+    {
+      "type": "multiple-choice",
+      "question": "How can you burn a token using OpenFormat?",
+      "options": [
+        "openFormat.burnToken()",
+        "openFormat.removeToken()",
+        "openFormat.destroyToken()",
+        "openFormat.deleteToken()"
+      ],
+      "correctOption": 0
+    },
+    {
+      "type": "true-false",
+      "question": "True or False: OpenFormat allows for batch minting of tokens in a single request.",
+      "options": ["True", "False"],
+      "correctOption": 1
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What data format is typically used to send requests to the OpenFormat API?",
+      "options": [
+        "JSON",
+        "XML",
+        "YAML",
+        "CSV"
+      ],
+      "correctOption": 0
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is the default protocol used by OpenFormat API for requests?",
+      "options": [
+        "HTTP",
+        "HTTPS",
+        "WebSockets",
+        "gRPC"
+      ],
+      "correctOption": 1
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which OpenFormat method allows you to freeze the minting process of a token?",
+      "options": [
+        "openFormat.freezeSupply()",
+        "openFormat.stopMinting()",
+        "openFormat.lockSupply()",
+        "openFormat.haltMinting()"
+      ],
+      "correctOption": 0
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "code",
+  "title": "JavaScript Basics Quiz",
+  "timeLimit": 180,
+  "passingScore": 4,
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "What is the output of the following code?",
+      "content": {
+        "type": "code",
+        "language": "javascript",
+        "code": "console.log(typeof null);"
+      },
+      "options": ["'object'", "'null'", "'undefined'", "'number'"],
+      "correctOption": 0
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does the following function return?",
+      "content": {
+        "type": "code",
+        "language": "javascript",
+        "code": "function test() {\n  return;\n  {\n    name: 'Quizkit';\n  }\n}\nconsole.log(typeof test());"
+      },
+      "options": ["'object'", "'undefined'", "'number'", "'function'"],
+      "correctOption": 1
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which of the following will output 'Hello, World!'?",
+      "content": {
+        "type": "code",
+        "language": "javascript",
+        "code": "// Select all that apply"
+      },
+      "options": [
+        "console.log('Hello, World!');",
+        "alert('Hello, World!');",
+        "document.write('Hello, World!');",
+        "prompt('Hello, World!');"
+      ],
+      "correctOption": 0
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is the value of 'x' after the following code executes?",
+      "content": {
+        "type": "code",
+        "language": "javascript",
+        "code": "let x = 5;\nx++;\n++x;\nx += 1;"
+      },
+      "options": ["7", "8", "9", "10"],
+      "correctOption": 1
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which statement correctly checks if 'a' is strictly equal to 'b'?",
+      "options": [
+        "if (a = b)",
+        "if (a == b)",
+        "if (a === b)",
+        "if (a !== b)"
+      ],
+      "correctOption": 2
+    }
+  ]
+}

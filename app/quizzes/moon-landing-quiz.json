@@ -1,0 +1,53 @@
+{
+  "id": "moon-landing",
+  "title": "The Moon Landing Quiz",
+  "timeLimit": 240,
+  "passingScore": 4,
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "What was the name of the mission that first landed humans on the Moon?",
+      "content": {
+        "type": "video",
+        "src": "https://www.youtube.com/embed/cwZb2mqId0A?si=E7dU2MB72GZphA_u"
+      },
+      "options": ["Apollo 10", "Apollo 11", "Apollo 12", "Apollo 13"],
+      "correctOption": 1
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Who was the commander of the Apollo 11 mission?",
+      "options": ["Neil Armstrong", "Buzz Aldrin", "Michael Collins", "Jim Lovell"],
+      "correctOption": 0
+    },
+    {
+      "type": "true-false",
+      "question": "Buzz Aldrin was the first person to walk on the Moon.",
+      "options": ["True", "False"],
+      "correctOption": 1
+    },
+    {
+      "type": "multiple-choice",
+      "question": "How long did Neil Armstrong spend walking on the Moon?",
+      "options": ["2 hours and 15 minutes", "3 hours and 50 minutes", "4 hours and 30 minutes", "1 hour and 45 minutes"],
+      "correctOption": 0
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What was the name of the lunar module used in Apollo 11?",
+      "options": ["Eagle", "Falcon", "Lion", "Hawk"],
+      "correctOption": 0
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which of the following statements is true about the Apollo 11 mission?",
+      "options": [
+        "It was the first mission to orbit the Moon.",
+        "It successfully returned all astronauts to Earth.",
+        "It was launched using the Saturn V rocket.",
+        "All of the above."
+      ],
+      "correctOption": 3
+    }
+  ]
+}

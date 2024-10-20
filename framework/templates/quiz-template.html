@@ -1,0 +1,26 @@
+<!-- framework/templates/quiz-template.html -->
+
+<div class="quiz">
+  <div class="quiz__header">
+    <h2>Question {{questionNumber}} of {{totalQuestions}}</h2>
+    <div class="quiz__score">Correct Answers: {{correctAnswersCount}}</div>
+    <div class="quiz__timer">{{timer}}</div>
+  </div>
+  <div class="quiz__content">
+    <p>{{questionContent}}</p>
+    {{content}}
+  </div>
+  <div class="quiz__progress-indicator">
+    {{questionIndicators}}
+  </div>
+  <ul class="quiz__options">
+    {{options}}
+  </ul>
+  <div class="quiz__navigation">
+    <button id="prev-button" class="quiz__button" {{prevDisabled}}>Previous</button>
+    <button id="next-button" class="quiz__button">{{nextButtonText}}</button>
+  </div>
+  <div class="progress-bar">
+    <div class="progress-bar__fill" style="width: {{progressPercentage}}%;"></div>
+  </div>
+</div>

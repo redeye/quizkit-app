@@ -1,0 +1,43 @@
+{
+  "id": "ww2",
+  "title": "World War II Quiz",
+  "timeLimit": 120,
+  "passingScore": 3,
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "Identify the leader shown in the image.",
+      "content": {
+        "type": "image",
+        "src": "app/images/churchill.jpg",
+        "alt": "Image of a World War II leader"
+      },
+      "options": ["Franklin D. Roosevelt", "Winston Churchill", "Joseph Stalin", "Adolf Hitler"],
+      "correctOption": 1
+    },
+    {
+      "type": "multiple-choice",
+      "question": "In which year did World War II begin?",
+      "options": ["1935", "1939", "1941", "1945"],
+      "correctOption": 1
+    },
+    {
+      "type": "multiple-choice",
+      "question": "The attack on which location led the United States to enter World War II?",
+      "options": ["Pearl Harbor", "Normandy", "Midway", "Iwo Jima"],
+      "correctOption": 0
+    },
+    {
+      "type": "true-false",
+      "question": "True or False: The Battle of Stalingrad was a turning point in favor of the Allies.",
+      "options": ["True", "False"],
+      "correctOption": 0
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which project developed the first nuclear weapons during World War II?",
+      "options": ["The Manhattan Project", "Operation Overlord", "Project Trinity", "The Enigma Project"],
+      "correctOption": 0
+    }
+  ]
+}
