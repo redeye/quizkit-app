@@ -2,7 +2,7 @@
 
 OK, the human bit first. The readme below is Ai generated and a fine job it's done too but an introduction is still in order. 
 
-This project is an experiment in creating a simple system based on machine readable content, created by a machine. Quiz's are easy fodder for experimenting with structured data as frankly there's not a lot to it and its very predictable. With the JSON data format created for simple quiz's, now we can get GPT (40) to search a website and create questions from it, outputting in the format that we've created. Now I needed a simple framework to parse these JSON files into an "experience"; and here we are. A really simple framework for creating quiz's (quizzes?). 
+This project is an experiment in creating a simple system based on machine readable content, created by a machine. Quiz's are easy fodder for experimenting with structured data as frankly there's not a lot to it and its very predictable. With the JSON data format created for simple quiz's, now we can get GPT (40) to search a website and create questions from it, outputting in JSON. I needed a simple framework to parse these JSON files into an "experience"; and here we are. A really simple framework for creating quiz's (quizzes?). 
 
 **Quizkit** is a customisable quiz application framework designed to help developers create engaging and interactive quizzes with ease. Whether you're building educational tools, training modules, or just want to test your knowledge, Quizkit provides a structured and flexible foundation to get you started quickly.
 
