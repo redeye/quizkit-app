@@ -77,9 +77,12 @@ body, html {font-size:1.5em;}
   background-color: #f5f5f5;
   padding: .2em;
   overflow-x: auto;
+
   margin: .4em 0;
 }
-
+pre.quiz__code code{
+  font-size:.7em;
+}
 /* Styles for question progress indicator */
 .quiz__progress-indicator {
   display: flex;
